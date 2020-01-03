@@ -112,7 +112,7 @@
                 <div class="container-fluid">
                     <div class="row ">
                         <div class="col-sm-12 text-center">
-                            <p>Design by Dhaval Mehta and Aditya Krishnakumar</p>
+                            <p>Design by Abhishek Kumar and contact me on Telegram https://t.me/TAbhishek_kumar</p>
                             <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
                         </div>
                     </div>
