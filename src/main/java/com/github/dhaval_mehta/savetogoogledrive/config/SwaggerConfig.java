@@ -26,6 +26,6 @@ public class SwaggerConfig {
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Save to Drive Rest API")
 				.description("It is a free open source api to upload file from url directly to Google Drive.")
-				.contact(new Contact("Dhaval Mehta", null, "abhishekumar336@gmail.com")).version("1.0").build();
+				.contact(new Contact("Abhishek kumar", null, "abhishekumar336@gmail.com")).version("1.0").build();
 	}
 }
