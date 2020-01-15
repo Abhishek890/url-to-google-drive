@@ -58,7 +58,7 @@ public class GoogleOauthController {
 	private final static String GRANT_TYPE = "authorization_code";
 	private final static String CLIENT_ID = System.getenv("client_id");
 	private final static String CLIENT_SECRET = System.getenv("client_secret");
-	private final static String REDIRECT_URI = System.getenv("https://developers.google.com/oauthplayground");
+	private final static String REDIRECT_URI = System.getenv("redirect_url");
 	private final static Gson gson = new GsonBuilder()
 			.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
 	private final HttpSession session;
