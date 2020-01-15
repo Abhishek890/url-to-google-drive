@@ -58,7 +58,7 @@ public class GoogleOauthController {
 	private final static String GRANT_TYPE = "authorization_code";
 	private final static String CLIENT_ID = System.getenv("585442478292-s7h2vsm0n6h12ppjn6oaomjneeer35eb.apps.googleusercontent.com");
 	private final static String CLIENT_SECRET = System.getenv("ChzCs-0WjVhJu59xh92etA3l");
-	private final static String REDIRECT_URI = System.getenv("https://linktogdrive.herokuapp.com");
+	private final static String REDIRECT_URI = System.getenv("https://linktogdrive.herokuapp.com/");
 	private final static Gson gson = new GsonBuilder()
 			.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
 	private final HttpSession session;
