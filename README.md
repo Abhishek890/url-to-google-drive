@@ -57,7 +57,7 @@
 
 ## Live Demo
 
-Here is a working live demo: [https://savetogoogledrive.herokuapp.com](https://savetogoogledrive.herokuapp.com)
+Here is a working live demo: [https://linktogdrive.herokuapp.com](https://savetogoogledrive.herokuapp.com)
 
 ## Build Process
 
@@ -101,7 +101,7 @@ Feature requests are always welcome. If you'd like to request a new function, fe
 
 ## Links
 
-* [Web site](https://savetogoogledrive.herokuapp.com)
+* [Web site](https://linktogdrive.herokuapp.com)
 * [Documentation](https://savetogoogledrive.herokuapp.com/swagger-ui.html)
 * [Bug Report](https://savetogoogledrive.herokuapp.com/bug_report.jsp)
 * [Issue tracker](https://github.com/dhaval-mehta/url-to-google-drive/issues)
