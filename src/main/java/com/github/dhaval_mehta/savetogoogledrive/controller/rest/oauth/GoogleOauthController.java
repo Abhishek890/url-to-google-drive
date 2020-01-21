@@ -56,9 +56,9 @@ public class GoogleOauthController {
 	private final static String RESPONSE_TYPE = "code";
 	private final static String SCOPE = "https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email";
 	private final static String GRANT_TYPE = "authorization_code";
-	private final static String CLIENT_ID = System.getenv("585442478292-bv54v44te51qdmqpdt189tqmtdhvd31j.apps.googleusercontent.com");
-	private final static String CLIENT_SECRET = System.getenv("rps_1Q3pYfKnz7Eb60KdrZu0");
-	private final static String REDIRECT_URI = System.getenv("https://urltodrivelinks.herokuapp.com");
+	private final static String CLIENT_ID = System.getenv(585442478292-bv54v44te51qdmqpdt189tqmtdhvd31j.apps.googleusercontent.com);
+	private final static String CLIENT_SECRET = System.getenv(rps_1Q3pYfKnz7Eb60KdrZu0);
+	private final static String REDIRECT_URI = System.getenv(https://urltodrivelinks.herokuapp.com);
 	private final static Gson gson = new GsonBuilder()
 			.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
 	private final HttpSession session;
@@ -105,9 +105,9 @@ public class GoogleOauthController {
 		// add request parameters
 		List<NameValuePair> parameters = new ArrayList<>();
 		parameters.add(new BasicNameValuePair("code", code));
-		parameters.add(new BasicNameValuePair("585442478292-bv54v44te51qdmqpdt189tqmtdhvd31j.apps.googleusercontent.com", CLIENT_ID));
-		parameters.add(new BasicNameValuePair("rps_1Q3pYfKnz7Eb60KdrZu0", CLIENT_SECRET));
-		parameters.add(new BasicNameValuePair("https://urltodrivelinks.herokuapp.com", REDIRECT_URI));
+		parameters.add(new BasicNameValuePair("client_id", CLIENT_ID));
+		parameters.add(new BasicNameValuePair("client_secret", CLIENT_SECRET));
+		parameters.add(new BasicNameValuePair("redirect_uri", REDIRECT_URI));
 		parameters.add(new BasicNameValuePair("grant_type", GRANT_TYPE));
 		httpPost.setEntity(new UrlEncodedFormEntity(parameters));
 
